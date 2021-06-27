@@ -7,7 +7,7 @@ title: About me
 
 I am a Software Engineer, currently working at UPMC in the Consumer Technology area of the [Insurance Services Division](https://www.upmchealthplan.com/about/about-upmc-insurance-services-division.aspx).
 
-Before joining UPMC, I worked as a Programmer Analyst in the IT department at [Malone University](https://www.malone.edu/), where I had graduated under the class of 2018.
+Before joining UPMC, I worked as a Programmer Analyst in the IT department at [Malone University](https://www.malone.edu/), where I had graduated in the class of 2018.
 
 I am passionate about building tools and products that solve real-world problems, and learning new technologies!
 
