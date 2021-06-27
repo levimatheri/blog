@@ -65,7 +65,7 @@ In order to use the dev version of docker-compose, I run `docker-compose -f dock
 Once I had tested my site locally, I created a [repo](https://github.com/levimatheri/blog) on GitHub, and then under *Settings* -> *Pages*, I configured the site to build from the `main` branch.
 
 <div class="card mb-3">
-    <img class="card-img-top" src="https://drscdn.500px.org/photo/127767019/q%3D80_m%3D1500/v2?webp=true&sig=dd1fa4580c459472969cd4992068922f311f12cf263cf08b39615cfc1812286b"/>
+    <img class="card-img-top" src="https://raw.githubusercontent.com/levimatheri/blog/main/_includes/images/github_pages_setup.PNG"/>
     <div class="card-body bg-light">
         <div class="card-text">
             GitHub Pages setup.
