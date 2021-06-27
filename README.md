@@ -1,18 +1,13 @@
-# Friday Theme
+# Blog
 
-## A Bootstrap 4 portfolio and blog theme for Jekyll
+This repo contains files for my [blog site](https://levimatheri.github.io/blog/). It is built using [Jekyll](https://jekyllrb.com/), [Friday Theme](https://github.com/sfreytag/friday-theme), and [Docker Compose](https://docs.docker.com/compose/).
 
-* Example 1: This repo builds directly to GitHub pages, which is also the documentation:  https://sfreytag.github.io/
-* Example 2: my own homepage, http://www.freytag.org.uk
-
-## Get Started
-
-Follow the [install notes](https://sfreytag.github.io/projects/install.html).
-
-## Usage
-
-The theme is free to use, but if you do use it, it would be great to hear from you. Email simon@freytag.org.uk - thanks!
-
-## Jekyll Version
-
-__Watch out!__ This theme uses {{site.baseurl}} throughout, so is not currently suitable for Jekyll 4. It works well with 3.8.5 and works well with GitHub Pages.
+## How to run
+### Prerequisites
+1. Docker/Docker Desktop
+2. Fork and clone the repo
+### Steps to run the site
+1. Ensure Docker service is running
+2. On a terminal, `cd` into the root of the repo
+3. Run `docker-compose -f docker-compose.dev.yml up` 
+4. Once the container is running, launch a tab on your browser and go to `localhost:4000`
