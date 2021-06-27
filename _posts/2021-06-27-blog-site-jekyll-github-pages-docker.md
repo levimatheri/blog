@@ -31,7 +31,7 @@ services:
             - '.:/srv/jekyll:cached'
         ports:
             - 4000:4000
-        command: 'jekyll serve --watch --force_polling' 
+        command: 'jekyll serve' 
 ```
 
 Launching the site is as easy as running `docker-compose up`.
