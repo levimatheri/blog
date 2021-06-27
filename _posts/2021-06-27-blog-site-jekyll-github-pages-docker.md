@@ -35,14 +35,13 @@ services:
 ```
 
 Launching the site is as easy as running `docker-compose up`.
-The `--watch` and `--force_polling` flags are helpful for hotreloading the site, enabling you to see instant changes as you work on your site. See full configuration options list [here](https://jekyllrb.com/docs/configuration/options/).
 
 <!--more-->
 
 One thing I had to change was the `baseUrl` in the `_config.yml` for Jekyll since it was pointing to `/friday_theme` from the downloaded theme. I set it to `""` and replaced all
 instances of `/friday-theme` in the repo with the empty string. This worked fine when I ran `docker-compose up` and launched the site on my local machine. However, after deploying to 
 GitHub pages, the css and js were not loaded causing the site to look horrendous.
-So after some troubleshooting, I realized that for the css and js to render in prod, I had to set the `baseUrl` to `"/"`. What I ended up having are the `_config.yml` for prod having `baseUrl` set to `"/"` and a `_config.dev.yml` for testing having `baseUrl` set to `""`. I also have a `docker-compose.dev.yml` file that I've been using for testing with a slightly different `command`. See below:
+So after some troubleshooting, I realized that for the css and js to render in prod, I had to set the `baseUrl` to `"/"`. What I ended up having are the `_config.yml` for prod having `baseUrl` set to `"/"` and a `_config.dev.yml` for testing having `baseUrl` set to `""`. I also have a `docker-compose.dev.yml` file that I've been using for testing. See below:
 
 _docker-compose.dev.yml_
 
@@ -59,6 +58,7 @@ services:
 ```
 
 In order to use the dev version of docker-compose, I run `docker-compose -f docker-compose.dev.yml up`.
+The `--watch` and `--force_polling` flags are helpful for hotreloading the site, enabling you to see instant changes as you work on your site. See full configuration options list [here](https://jekyllrb.com/docs/configuration/options/).
 
 <!--more-->
 
