@@ -1,9 +1,9 @@
 version: '3'
 services:
-  jekyll-serve:
-    image: jekyll/jekyll:4.0
-    volumes:
-      - ".:/srv/jekyll:cached"
-    ports:
-      - 4000:4000
-    command: 'jekyll serve --watch'
+    jekyll-serve:
+        image: jekyll/minimal:pages
+        volumes:
+            - '.:/srv/jekyll:cached'
+        ports:
+            - 4000:4000
+        command: 'jekyll serve --watch --force_polling'
