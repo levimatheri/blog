@@ -1,5 +1,5 @@
 ---
-title:  How I built this blog site with Jekyll, Docker-Compose, and Github Pages
+title: How I built this blog site with Jekyll, Docker-Compose, and Github Pages
 tags:
   - Jekyll
   - Docker-Compose
