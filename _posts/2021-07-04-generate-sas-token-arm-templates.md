@@ -60,11 +60,11 @@ See below for an example:
             "properties": {
                 "mode": "Incremental",
                 "templateLink": {
-                    "uri": "[concat(parameters('LinkedTemplateBaseUrl'), '/yetanother.template.json?', listAccountSas(parameters('StorageAccountName'), '2020-10-01', variables('SasTokenProperties')).accountSasToken)]",
+                    "uri": "[concat(parameters('LinkedTemplateBaseUrl'), '/yetanother.template.json?', listAccountSas(resourceId('Microsoft.Storage/storageAccounts', parameters('StorageAccountName')), '2020-10-01', variables('SasTokenProperties')).accountSasToken)]",
                     "contentVersion": "1.0.0.0"
                 },
                 "parametersLink": {
-                    "uri": "[concat(parameters('LinkedTemplateBaseUrl'), '/yetanother.parameters.json?', listAccountSas(parameters('StorageAccountName'), '2020-10-01', variables('SasTokenProperties')).accountSasToken)]",
+                    "uri": "[concat(parameters('LinkedTemplateBaseUrl'), '/yetanother.parameters.json?', listAccountSas(resourceId('Microsoft.Storage/storageAccounts', parameters('StorageAccountName')), '2020-10-01', variables('SasTokenProperties')).accountSasToken)]",
                     "contentVersion": "1.0.0.0"
                 }
             }
