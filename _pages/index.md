@@ -9,6 +9,7 @@ Hello there!
 
 I will post content about projects I'm working on and whatever stumbling blocks I've encountered and how I've solved them.
 
+Please [subscribe](#subscription_section) to receive notifications about new posts!
 
 ### Recent Posts
 
