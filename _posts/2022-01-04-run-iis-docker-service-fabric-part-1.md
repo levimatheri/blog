@@ -20,7 +20,7 @@ I'll walk you through how to get a Web API up and running in a local Service Fab
 Visual Studio provides an easy way to configure Service Fabric as a container orchestrator. To do this, right-click on your existing Web API project, then click 'Add' -> 'Container Orchestator Support'. Select 'Service Fabric' then hit 'OK'. This should add a Service Fabric application project, as well as a Dockerfile and a Package Root folder in the WebAPI project.
 
 <div class="card mb-3">
-    <img class="card-img-top" src="https://raw.githubusercontent.com/levimatheri/blog/main/_includes/container_orchestrator_support.png"/>
+    <img class="card-img-top" src="https://raw.githubusercontent.com/levimatheri/blog/main/_includes/images/container_orchestrator_support.png"/>
     <div class="card-body bg-light">
         <div class="card-text">
             Add container orchestrator support
@@ -29,7 +29,7 @@ Visual Studio provides an easy way to configure Service Fabric as a container or
 </div>
 
 <div class="card mb-3">
-    <img class="card-img-top" src="https://raw.githubusercontent.com/levimatheri/blog/main/_includes/service_fabric_orchestrator.png"/>
+    <img class="card-img-top" src="https://raw.githubusercontent.com/levimatheri/blog/main/_includes/images/service_fabric_orchestrator.png"/>
     <div class="card-body bg-light">
         <div class="card-text">
             Add Service Fabric container orchestrator support
@@ -61,7 +61,7 @@ To run the application, you can set the Service Fabric application as the Startu
 You can also right click on your Service Fabric application and select 'Publish' to your local cluster.
 
 <div class="card mb-3">
-    <img class="card-img-top" src="https://raw.githubusercontent.com/levimatheri/blog/main/_includes/publish_application.png"/>
+    <img class="card-img-top" src="https://raw.githubusercontent.com/levimatheri/blog/main/_includes/images/publish_application.png"/>
     <div class="card-body bg-light">
         <div class="card-text">
             Add container orchestrator support
