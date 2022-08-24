@@ -22,8 +22,8 @@ vendor/
 /test/tmp/
 /test/version_tmp/
 /tmp/
-Gemfile
-Gemfile.lock
+**/Gemfile
+**/Gemfile.lock
 # Used by dotenv library to load environment variables.
 # .env
 
