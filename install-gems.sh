@@ -9,3 +9,4 @@ chmod 777 Gemfile
 bundle add webrick
 bundle add jekyll-watch
 bundle add kramdown-parser-gfm
+bundle add kramdown rouge
