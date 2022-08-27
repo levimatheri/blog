@@ -1,9 +1,12 @@
 version: '3'
 services:
     jekyll-serve:
-        image: jekyll/minimal:pages
+        image: jekyll/minimal:latest
         volumes:
             - '.:/srv/jekyll:cached'
         ports:
             - 4000:4000
-        command: 'jekyll serve'
+        command: > 
+            bash -c "cd /srv/jekyll && 
+                    sh install-gems.sh && 
+                    jekyll serve"
