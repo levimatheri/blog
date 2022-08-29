@@ -227,7 +227,7 @@ Now, you should be able to access the web app by going to http://demo.localdev.m
 <!--more-->
 **Source code**
 
-You can access this code in [my GitHub fork of eShopWeb](https://github.com/levimatheri/eShopOnWeb) under the `kubernetes-hosting` branch. A commit outlining the changes outlined in this article is [here](https://github.com/levimatheri/eShopOnWeb/commit/d8cd813de6fe2a15cb16ba38d15bbc6d020651a6).
+You can access this code in [my GitHub fork of eShopWeb](https://github.com/levimatheri/eShopOnWeb/tree/kubernetes-hosting) under the `kubernetes-hosting` branch. A commit outlining the changes outlined in this article is [here](https://github.com/levimatheri/eShopOnWeb/commit/d8cd813de6fe2a15cb16ba38d15bbc6d020651a6).
 
 
 <!--more-->
